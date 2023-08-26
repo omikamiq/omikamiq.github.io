@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: normal;
+  font-style: normal;
+}
+
+$darker-blue: #2a2367;
+$lighter-blue: #6b5af9;
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  min-width: 360px;
+  width: 100vw;
+  background: #fff;
+
+  @media (min-width: 767px) {
+    min-width: 768px;
+  }
+
+  @media (min-width: 1439px) {
+    min-width: 1440px;
+  }
+}
+
+@import "header";
+@import "price-btn";
+@import "swiper";
+@import "slider";
+@import "main";
+@import "opportunities";
+@import "sertificates";
+@import "bisness";
+@import "stages";
+@import "form";
+@import "footer";
+@import "popup-form";
+@import "menu";

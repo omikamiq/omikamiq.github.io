@@ -1,0 +1,72 @@
+.price {
+  width: 275px;
+  height: 60px;
+  border-radius: 5px;
+  background: $lighter-blue;
+  color: #fff;
+  border: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  @media (min-width: 767px) {
+    position: absolute;
+    margin-top: 172px;
+    margin-left: 2%;
+  }
+
+  @media (min-width: 1439px) {
+    margin-top: 400px;
+    margin-left: 140px;
+  }
+}
+
+.price:hover {
+  scale: 1.1;
+  box-shadow: 5px 5px 0 0 black;
+}
+
+.price_position {
+  transform: translateY(50px);
+  margin-bottom: 80px;
+  @media (min-width: 767px) {
+    margin-top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-400px);
+    transition: 0.5s;
+  }
+  @media (min-width: 1134px) {
+    transform: translateY(-200px);
+    transition: 0.5s;
+  }
+  @media (min-width: 1439px) {
+    margin-top: 50px;
+  }
+}
+
+.price_position_active {
+  @media (min-width: 767px) {
+    transform: translateY(0px);
+  }
+}
+
+.price_position-second {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  @media (min-width: 767px) {
+    position: relative;
+    margin: 80px auto 0px auto;
+    display: block;
+  }
+  @media (min-width: 1439px) {
+    position: relative;
+    margin-top: 70px;
+    margin-left: auto;
+  }
+}

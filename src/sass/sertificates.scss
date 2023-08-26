@@ -1,0 +1,123 @@
+.sertificate_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 310px;
+  height: 700px;
+  margin: 80px auto 0px auto;
+  flex-shrink: 0;
+  background: #f0d577;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px white, 0 0 0 14px #f0d577;
+  @media (min-width: 767px) {
+    width: calc(100vw - 60px);
+    height: 1125px;
+  }
+  @media (min-width: 1439px) {
+    flex-direction: row;
+    width: calc(100vw - 300px);
+    gap: 100px;
+    height: 450px;
+  }
+}
+
+.gold_bitrix {
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: 185px;
+    height: 226px;
+    margin-top: 70px;
+  }
+  @media (min-width: 1439px) {
+    width: 359px;
+    height: 438px;
+    margin-top: 20px;
+  }
+}
+
+.sertificate__signature {
+  color: #9f9f9f;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 20px;
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.sertificate__description {
+  width: 212px;
+  color: $darker-blue;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 6px;
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.sertif-1 {
+  @media (min-width: 767px) {
+    width: 429px;
+    height: 607px;
+  }
+}
+
+.sertif-2 {
+  width: 280px;
+  height: 395px;
+  @media (min-width: 767px) {
+    width: 429px;
+    height: 607px;
+  }
+}
+
+.sertificate__one-desktop {
+  display: none;
+  @media (min-width: 1439px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.sertificate__two-desktop {
+  display: none;
+  @media (min-width: 1439px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.sertificate__signature-desktop {
+  @media (min-width: 1439px) {
+    color: #9f9f9f;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+.sertificate__description-desktop {
+  @media (min-width: 1439px) {
+    width: 200px;
+    display: block;
+    color: $darker-blue;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+.sertif-1-desktop {
+  @media (min-width: 1439px) {
+    width: 231px;
+    height: 327px;
+  }
+}
