@@ -16,8 +16,8 @@
   }
   @media (min-width: 1439px) {
     flex-direction: row;
+    justify-content: space-around;
     width: calc(100vw - 300px);
-    gap: 100px;
     height: 450px;
   }
 }
@@ -59,6 +59,8 @@
 }
 
 .sertif-1 {
+  width: 280px;
+  height: 395px;
   @media (min-width: 767px) {
     width: 429px;
     height: 607px;
@@ -116,6 +118,13 @@
 }
 
 .sertif-1-desktop {
+  @media (min-width: 1439px) {
+    width: 231px;
+    height: 327px;
+  }
+}
+
+.sertif-2-desktop {
   @media (min-width: 1439px) {
     width: 231px;
     height: 327px;

@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const application = document.querySelector(".application-form__area");
   const formBackground = document.querySelector(".form__background");
   const wrapper = document.querySelector(".wrapper");
+  const footerBtn = document.querySelector(".footer__btn");
 
   headerMenuButtons.addEventListener("click", () => {
     nav.classList.toggle("main__navbar_active");
@@ -43,10 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
     formBackground.classList.toggle("form__background-active");
   });
 
-  formCloseBtn.addEventListener("click", () => {
+  footerBtn.addEventListener("click", () => {
     application.classList.toggle("application-form__area_active");
+    formBackground.classList.toggle("form__background-active");
   });
-  formBackground.addEventListener("click", () => {
+
+  formCloseBtn.addEventListener("click", () => {
     application.classList.toggle("application-form__area_active");
     formBackground.classList.toggle("form__background-active");
   });
